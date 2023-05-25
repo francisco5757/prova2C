@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" class="form"> 
+        <h1>formulário</h1>
+        <br><br>
+        <input type="text" placeholder="escreva seu nome" name="nome">
+        <br><br>
+        <input type="text" placeholder="escreva seu email" name="email">
+        <br><br>
+        <textarea name="endereco" placeholder="escreva seu enderço" id="" cols="30" rows="5"></textarea>
+        <br><br>
+        <input type="submit" onclick="entrar()">
+    </form>
+</body>
+<script>
+    function entrar(){
+        alert("entrou!");
+        location.href = "./segunda";
+    }
+</script>
+</html>
