@@ -19,3 +19,9 @@ body{
 input, h1{
     margin: 5px;
 }
+#enviar{
+    padding: 5px;
+    background-color: rgb(27, 32, 61);
+    color: rgb(175, 170, 164);
+    border-radius: 10px;
+}
