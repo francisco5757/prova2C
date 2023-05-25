@@ -25,3 +25,33 @@ input, h1{
     color: rgb(175, 170, 164);
     border-radius: 10px;
 }
+iframe{
+    width: 350px;
+    height: 300px;
+    border-radius: 20PX;
+}
+#enviar{
+    text-align: center;
+    width: 60px;
+    border: 1px solid black;
+}
+h1{
+    font-size: 50px;
+    color: rgb(95, 30, 30);
+}
+.secao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(88, 29, 29);
+    padding: 5px;
+    color: rgb(156, 147, 136);
+}
+button:hover{
+    transform: scale(1.2);
+}
